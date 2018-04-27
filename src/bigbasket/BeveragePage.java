@@ -23,6 +23,7 @@ public class BeveragePage {
 			{
 				Actions act=new Actions(driver);
 				act.moveToElement(addBTN).click().perform();
+				//good
 				//addBTN.click();
 				//Thread.sleep(2000);
 			}
